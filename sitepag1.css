@@ -1,0 +1,72 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;}
+    body { background-color: black;}
+    #Photosen {font-family: 'Josefin Sans', sans-serif; font-size: 2rem; color: white}
+    .RedesSociais { width: 100px;}
+    li {list-style: none;}
+    header{ display: flex; justify-content: space-between; color: black; align-items: center; height: 100px;}
+    header ul {display: flex; justify-content: space-evenly; width: 100%; }
+    #Left { justify-content: flex-start; margin-left: 30px;}
+    #Right { justify-content: flex-end; margin-right: 30px; width: 100%; fill: rgba(255, 255, 255, 0.5);}
+    #Right li { margin-left: 30px;}
+    #Right li:hover { fill: white;}
+    #Pesquisar { color: rgba(255, 255, 255, 0.5); font-size: 12px; height: 100%; display: flex; align-items: center; }
+    section { display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+    div { flex-basis: 31%; filter: saturate(0); transition: 1s;  overflow: hidden; margin-bottom: 20px; position: relative;}   
+    div:hover { filter: saturate(100%);}
+    img { transition: 1s; }
+    img:hover {filter: brightness(80%);
+    transform: scale(1.02);}
+    nav { position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;}
+    .SpanBtn {color: white;
+    font-size: 32px;}
+    button { height: 40px; width: 150px;
+    background-color: transparent;
+    border: 2px solid white; 
+    color: white; 
+    border-radius: 0%; margin-top: 20px;
+    font-size: 12px;}
+    .Bnt:hover { background-color: white; color: black; transition: 0.4s;}
+    footer{display: flex; justify-content: center; margin:40px; color: rgba(255, 255, 255, 0.5);}
+    #Verde { color: #20c997;}
+    .Verde:hover { color: #20c997; }
+    #Drop {position: relative; bottom: 1px; height: 100%; display: flex; align-items: center;}
+    #SubMenu { position: absolute;
+    list-style: none;
+    color: darkslategray;
+    display: none;}
+    #Drop:hover #SubMenu { display: block; 
+    z-index: 1;
+    background-color: white;
+    font-size: 16px; width: 300%;
+    margin-top: 430px; margin-left: -10px; border-top: 3px solid #20c997;} 
+    #Drop:hover #SubMenu:hover { display: block; 
+        z-index: 1;
+        background-color: white;
+        font-size: 16px; width: 300%;
+        margin-top: 430px; margin-left: -10px; border-top: 3px solid #20c997;} 
+    #Drop:hover #SubMenu li { padding: 15px;}
+    #DropDrop {position: relative; bottom: 1px; height: 100%; display: flex; align-items: center;}
+    #SubSubMenu { position: absolute;
+    list-style: none;
+    color: darkslategray;
+    display: none;}
+    #DropDrop:hover #SubSubMenu { display: block; 
+    z-index: 1;
+    background-color: white;
+    font-size: 16px; width: 100%; margin-top: 100px; margin-left: 185px; border-top: 3px solid #20c997;} 
+    #DropDrop:hover #SubSubMenu:hover { display: block; 
+    z-index: 1;
+    background-color: white;
+    font-size: 16px; width: 100%; margin-top: 100px; margin-left: 185px; border-top: 3px solid #20c997;}
+    #DropDrop:hover #SubSubMenu li { padding: 15px;}
+    #Drop:hover #SubMenu li:hover { background-color: rgba(230, 255, 230, 100%)}
